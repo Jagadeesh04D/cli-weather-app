@@ -7,7 +7,7 @@ if (!city) {
   process.exit(1);
 }
 
-const API_KEY = "adce1095f58e2a254bca204e66ca4546"; // your API key
+const API_KEY = "336989235bdc4142ce16fd5325df33c1"; // your API key
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
 async function getWeather() {
